@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home_id"
+        android:icon="@mipmap/baseline_home_black_24dp"
+        android:title="Home" />
+
+    <item android:id="@+id/id_pantry"
+        android:icon="@mipmap/baseline_storage_black_24dp"
+        android:title="Pantry"/>
+
+    <item android:id="@+id/id_pantryAssistant"
+        android:icon="@mipmap/baseline_storage_black_24dp"
+        android:title="Pantry Assistant"/>
+
+    <item android:id="@+id/id_Search"
+        android:icon="@mipmap/baseline_image_search_black_24dp"
+        android:title="Search Recipe"/>
+
+
+    <item android:id="@+id/id_recipeBook"
+        android:icon="@mipmap/baseline_book_black_24dp"
+        android:title="Recipe Book"/>
+
+
+    <item android:id="@+id/id_settings"
+        android:icon="@mipmap/baseline_settings_black_24dp"
+        android:title="Settings"/>
+
+    <item android:id="@+id/id_pantryManagerActivity"
+        android:title="Pantry Activity"/>
+
+    <item android:id="@+id/id_SearchActivity"
+        android:title="Search Activity"/>
+
+
+
+</menu>

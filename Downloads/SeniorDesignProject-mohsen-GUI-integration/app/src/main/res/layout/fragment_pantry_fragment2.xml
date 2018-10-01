@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.RecipeSearchFragment">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background">
+
+
+        <fragment
+            android:id="@+id/ListViewPantry"
+            android:name="com.cmpe195.mohsenhosseinikhayat.seniordesignproject.Fragments.ListViewPantry"
+            android:layout_width="wrap_content"
+            android:layout_height="512dp"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+
+        <Button
+            android:id="@+id/goToPantryAssistant"
+            android:layout_width="360dp"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="Go To Pantry Assistant"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
