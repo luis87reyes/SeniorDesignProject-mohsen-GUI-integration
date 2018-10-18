@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pantry_listening_color1">#AD1457</color>
+    <color name="pantry_listening_color2">#1565C0</color>
+    <color name="pantry_listening_color3">#2E7D32</color>
+    <color name="pantry_listening_color4">#F9A825</color>
+    <color name="pantry_listening_color5"> #4527A0</color>
+    <color name="white_color"> #FFFFFF</color>
+
+
+
+</resources>

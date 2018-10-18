@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/recipeSearchFilterSpinner"
+        android:layout_weight="2"></android.support.v7.widget.AppCompatSpinner>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/recipeSearchView"
+        android:iconifiedByDefault="false"
+        android:focusable="false"
+        android:queryHint="Search for recipes here"
+        android:layout_weight="2"/>
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:id="@+id/recipeSearchRecyclerView"
+        android:layout_height="0dp">
+    </com.malinskiy.superrecyclerview.SuperRecyclerView>
+
+</LinearLayout>
